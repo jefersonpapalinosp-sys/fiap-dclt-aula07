@@ -75,7 +75,7 @@ Responda APENAS com a categoria, uma única palavra."""
 
     try:
         response = requests.post(
-            f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}",
+            f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={api_key}",
             headers={"Content-Type": "application/json"},
             json={
                 "contents": [{
